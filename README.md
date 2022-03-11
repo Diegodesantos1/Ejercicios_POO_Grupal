@@ -1,4 +1,4 @@
-<h1 align="center">Ejercicios de POO grupal/h1>
+<h1 align="center">Ejercicios de POO grupal</h1>
 
 *Hemos usado la herramienta de Replit para poder programar de forma colaborativa y así resolver los ejercicios propuestos.*
 

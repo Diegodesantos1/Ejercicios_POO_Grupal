@@ -24,5 +24,5 @@ class Casa:
     def superficie_acristalada(espacio):
         casa = Casa(espacio)
         print(casa.superficie_acristalada(espacio))
-Casa.superficie_acristalada(espacio)
+Casa.superficie_acristalada()
 

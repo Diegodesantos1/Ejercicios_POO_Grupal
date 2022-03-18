@@ -1,11 +1,11 @@
 
 class Pared:
-    pared=int("¿Cuántas paredes tiene la casa?")
+    pared=int(input("¿Cuántas paredes tiene la casa?"))
     def __init__(self,pared):
         self.pared=pared
 
 class Ventana:
-    ventana=int("¿Cuántas ventanas tiene la casa?")
+    ventana=int(input("¿Cuántas ventanas tiene la casa?"))
     def __init__(self,ventana):
         self.ventana=ventana
 

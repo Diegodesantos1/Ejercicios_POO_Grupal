@@ -27,15 +27,15 @@ class Punto3D:
         return self.x, self.y, self.z
 
 a = Punto2D(1, 2) 
-print("A = {}".format(a)) 
+print("A = {}".format(a.mostrar()))
  
 a.traslacion(-1, -2) 
-print("A = {}".format(a)) 
+print("A = {}".format(a.mostrar()))
  
 b = Punto2D(-3, 0) 
 b.traslacion(5, -1) 
-print("B = {}".format(b))
+print("B = {}".format(b.mostrar()))
 
 c = Punto3D(1,5,-3) 
 c.traslacion(0, -2, 1) 
-print("C = {}".format(c)) 
+print("C = {}".format(c.mostrar()))

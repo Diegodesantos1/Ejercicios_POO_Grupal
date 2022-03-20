@@ -1,6 +1,6 @@
-<h1 align="center">Ejercicios de POO grupal</h1>
+<h1 align="center">Ejercicios de POO Grupal</h1>
 
-*Hemos usado la herramienta de Replit para poder programar de forma colaborativa y así resolver los ejercicios propuestos.*
+*Hemos usado la Programación Orientada a Objetos para resolver estos ejercicios.*
 
 ***
 

@@ -1,4 +1,4 @@
-#main
+
 def elegir():
     variable = int(input("Conceptos de la POO en Python. Ejercicios de Herencias. /nPor favor, introduzca qué ejercicio desea realizar (1, 2, 3 o 4): "))
 

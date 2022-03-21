@@ -4,14 +4,14 @@ def elegir():
 
     if variable == 1:
         from Clases import herencia_simple
-    if variable == 2:
+    elif variable == 2:
         from imagenes import salidaestandar
     elif variable == 3:
         from Clases import herencia_multiple_diamantes
-    elif variable == 3:
+    elif variable == 4:
         from Clases import herencia
     else:
-        print("Sólo son válidos los valores 1, 2 y 3. ")
+        print("Sólo son válidos los valores 1, 2, 3 y 4. ")
 elegir()
 
 if __name__ == "main":

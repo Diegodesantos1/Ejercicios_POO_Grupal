@@ -132,3 +132,30 @@ Salida estándar:
 <br>
 <img height="225" src="imagenes/salidaestandar.png" />
 <br>
+
+
+### Ejercicio C: Herencia múltiple - Diamante<a name="id3"></a>
+
+Enunciado: en el caso del temido diamante de la herencia múltiple (ver capítulo Conceptos de la POO, sección Herencia múltiple), donde una clase D hereda de dos clases B y C, ambas heredando de una sola clase A, escriba el código que permita, durante la instanciación, inicializar los atributos a, b y c, pertenecientes respectivamente a las clases A, B y C.
+
+```python
+class A:
+    def __init__(self,a):
+        self.a = a
+class B(A):
+    def __init__(self, a, b):
+        self.b = b
+        super(A)
+class C(A):
+    def __init__(self, a, c):
+        self.c = c
+        A.__init__(self, a)
+class D(B,C):
+    def __init__(self, a, b, c):
+        B.__init__(self, a, b)
+        C.__init__(self, a, c)
+
+d = D(1, 2, 3)
+print(isinstance(d, A), isinstance(d, B), isinstance(d, C))
+print(d.a, d.b, d.c)
+```

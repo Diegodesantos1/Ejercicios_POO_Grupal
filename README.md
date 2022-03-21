@@ -28,9 +28,9 @@ En este [repositorio](https://github.com/Diegodesantos1/Ejercicios_POO_Grupal) q
 
 ### Ejercicio A: Herencia simple<a name="id1"></a>
 
-Enunciado: definir una clase Punto2D que tenga dos atributos x e y, y que implemente un método de traslación() que reciba como parámetro las dos componentes horizontal y vertical de la traslación, y modifique las coordenadas del punto en cuestión según el principio de que una traslación (a, b) consiste en sumar a (respectivamente b), al componente x (respectivamente y) de un punto.
+Enunciado: Definir una clase Punto2D que tenga dos atributos x e y, y que implemente un método de traslación() que reciba como parámetro las dos componentes horizontal y vertical de la traslación, y modifique las coordenadas del punto en cuestión según el principio de que una traslación (a, b) consiste en sumar a (respectivamente b), al componente x (respectivamente y) de un punto.
 
-Enunciado: ahora añada la gestión de un punto en tres dimensiones, según los mismos principios que el punto 2D. Nota: esta adición se debe realizar sin acceder directamente a los componentes x e y del punto 3D.
+Enunciado: Ahora añada la gestión de un punto en tres dimensiones, según los mismos principios que el punto 2D. Nota: esta adición se debe realizar sin acceder directamente a los componentes x e y del punto 3D.
 
 
 ```python

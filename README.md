@@ -10,11 +10,11 @@ En este [repositorio](https://github.com/Diegodesantos1/Ejercicios_POO_Grupal) q
 
 <h3>Integrantes</h3>
 
-1. [Juan](https://github.com/jmedina28)
-2. [Martín](https://github.com/mat0ta)
-3. [Javier](https://github.com/Xavitheforce)
-4. [Esther](https://github.com/ESTHERRODRIGUEZGARCIA)
-5. [Diego](https://github.com/Diegodesantos1)
+1. [@jmedina28](https://github.com/jmedina28)
+2. [@mat0ta](https://github.com/mat0ta)
+3. [@xavitheforce](https://github.com/Xavitheforce)
+4. [@ESTHERRODRIGUEZGARCIA](https://github.com/ESTHERRODRIGUEZGARCIA)
+5. [@Diegodesantos1](https://github.com/Diegodesantos1)
 
 ***
 

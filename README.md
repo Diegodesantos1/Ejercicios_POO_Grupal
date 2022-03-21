@@ -1,4 +1,4 @@
-<h1 align="center">Herencias POO</h1>
+qq<h1 align="center">Herencias POO</h1>
 
 *Hemos usado la Programación Orientada a Objetos para resolver estos ejercicios.*
 
@@ -142,6 +142,8 @@ Salida estándar:
 
 Enunciado: en el caso del temido diamante de la herencia múltiple (ver capítulo Conceptos de la POO, sección Herencia múltiple), donde una clase D hereda de dos clases B y C, ambas heredando de una sola clase A, escriba el código que permita, durante la instanciación, inicializar los atributos a, b y c, pertenecientes respectivamente a las clases A, B y C.
 
+El código empleado es el siguiente:
+
 ```python
 class A:
     def __init__(self,a):
@@ -172,3 +174,52 @@ Su UML es el siguiente:
 <br>
 <img height="500" src="UML/UML_herencia_multiple_diamante.JPG" />
 <br>
+
+## Ejercicio D: Herencia múltiple - Caso real<a name="id3"></a>
+
+Enunciado: Implementar un programa que calcule la superficie total acristalada de una casa, sabiendo que una casa está formada por paredes y que cada pared tiene una orientación (Norte, Oeste, Sur, Este) y posiblemente ventanas. Una ventana tiene una superficie que se da como parámetro durante su construcción.
+
+Enunciado: los edificios modernos tienen a menudo fachadas llamadas "paredes cortina" que actúan como paredes exteriores al mismo tiempo que son una superficie acristalada transparente. Su código debe poder gestionar este nuevo concepto, sabiendo que una pared cortina se define por su orientación y su superficie.
+
+Enunciado: se publica una nueva regulación térmica del edificio e impone protecciones externas en las ventanas, con el fin de aumentar el aislamiento de las casas residenciales. Su código ahora debe detenerse si alguna vez se crea una instancia de una ventana sin protección externa (para eso, use el comando raise Exception("mensaje"); este mecanismo se explicará en la sección dedicada a las excepciones). En el contexto de este ejercicio, la protección se limitará a una cadena de caracteres ("Persiana", "Estor", etc.).
+
+El código empleado es el siguiente:
+
+```python
+class Casa():
+    def __init__(self):
+      self.casa = {}
+    def Paredes(self, orientacion):
+      for i in range(len(orientacion)):
+        nombre = orientacion[i]
+        self.casa[nombre] = {
+            'ventanas': {},
+        }
+      print(self.casa)
+      Casa().Ventanas(self.casa, [['NORTE', 0.5], ['SUR', 1], ['ESTE', 2], ['OESTE', 1]])
+    def Ventanas(self, casa, ventanas):
+      dimensiones = []
+      for i in range(len(ventanas)):
+        nombre = ventanas[i][0]
+        casa[nombre]['ventanas'] = {
+          1: ventanas[i][1]
+        }
+        dimensiones.append(ventanas[i][1])  
+      print(casa)
+      Casa().Superficie(dimensiones)
+      
+    def Superficie(self, dimensiones):
+      total = 0
+      for i in range(len(dimensiones)):
+        total += dimensiones[i]
+      print('Superficie avristalada: ' + str(total))
+   
+```
+
+Su UML es el siguiente: 
+
+
+<br>
+<img height="500" src="UML" />
+<br>
+

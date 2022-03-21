@@ -1,4 +1,4 @@
-qq<h1 align="center">Herencias POO</h1>
+<h1 align="center">Herencias POO</h1>
 
 *Hemos usado la Programación Orientada a Objetos para resolver estos ejercicios.*
 
@@ -175,7 +175,7 @@ Su UML es el siguiente:
 <img height="500" src="UML/UML_herencia_multiple_diamante.JPG" />
 <br>
 
-## Ejercicio D: Herencia múltiple - Caso real<a name="id3"></a>
+## Ejercicio D: Herencia múltiple - Caso real<a name="id4"></a>
 
 Enunciado: Implementar un programa que calcule la superficie total acristalada de una casa, sabiendo que una casa está formada por paredes y que cada pared tiene una orientación (Norte, Oeste, Sur, Este) y posiblemente ventanas. Una ventana tiene una superficie que se da como parámetro durante su construcción.
 
@@ -220,6 +220,6 @@ Su UML es el siguiente:
 
 
 <br>
-<img height="500" src="UML" />
+<img height="230" src="UML/UML HerenciasG 4.jpg" />
 <br>
 

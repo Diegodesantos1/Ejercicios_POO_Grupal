@@ -76,6 +76,11 @@ c.traslacion(0, -2, 1)
 print("C = {}".format(c.mostrar()))
 
 ```
+Su UML es el siguiente:
+
+<br>
+<img height="250" src="UML/UML HerenciasG 1.jpg" />
+<br>
 
 ## Ejercicio B: Puzzle<a name="id2"></a>
 

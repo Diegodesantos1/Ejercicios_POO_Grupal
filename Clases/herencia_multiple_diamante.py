@@ -4,7 +4,7 @@ class A:
 class B(A):
     def __init__(self, a, b):
         self.b = b
-        A.__init__(self, a)
+        super(A)
 class C(A):
     def __init__(self, a, c):
         self.c = c

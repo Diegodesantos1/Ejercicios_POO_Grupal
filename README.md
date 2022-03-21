@@ -229,8 +229,5 @@ class Casa():
 
 Su UML es el siguiente: 
 
-
-<br>
-<img height="230" src="UML/UML HerenciasG 4.1.jpg" />
-<br>
+![image](https://user-images.githubusercontent.com/91721855/159326291-270eafa6-9ab1-4928-942a-af4f7ded2fcc.png)
 

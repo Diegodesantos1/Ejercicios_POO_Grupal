@@ -26,7 +26,7 @@ class Casa():
     total = 0
     for i in range(len(orientaciones)):
       total += casa[orientaciones[i]]['ventanas']['superficie']
-    print('Superficie avristalada: ' + str(total))
+    print('Superficie acristalada: ' + str(total))
   def ParedCortina(self, orientacion, tamaño):
     casa[orientacion]['ventanas']['superficie'] += tamaño
     print(casa)

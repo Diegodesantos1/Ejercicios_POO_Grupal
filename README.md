@@ -26,7 +26,7 @@ En este [repositorio](https://github.com/Diegodesantos1/Ejercicios_POO_Grupal) q
 ***
 ## Ejercicios
 
-### Ejercicio A: Herencia simple<a name="id1"></a>
+## Ejercicio A: Herencia simple<a name="id1"></a>
 
 Enunciado: Definir una clase Punto2D que tenga dos atributos x e y, y que implemente un método de traslación() que reciba como parámetro las dos componentes horizontal y vertical de la traslación, y modifique las coordenadas del punto en cuestión según el principio de que una traslación (a, b) consiste en sumar a (respectivamente b), al componente x (respectivamente y) de un punto.
 
@@ -78,7 +78,7 @@ print("C = {}".format(c.mostrar()))
 
 ```
 
-### Ejercicio B: Puzzle<a name="id2"></a>
+## Ejercicio B: Puzzle<a name="id2"></a>
 
 Enunciado: ¿qué muestra este programa en la salida estándar?
 
@@ -134,7 +134,7 @@ Salida estándar:
 <br>
 
 
-### Ejercicio C: Herencia múltiple - Diamante<a name="id3"></a>
+## Ejercicio C: Herencia múltiple - Diamante<a name="id3"></a>
 
 Enunciado: en el caso del temido diamante de la herencia múltiple (ver capítulo Conceptos de la POO, sección Herencia múltiple), donde una clase D hereda de dos clases B y C, ambas heredando de una sola clase A, escriba el código que permita, durante la instanciación, inicializar los atributos a, b y c, pertenecientes respectivamente a las clases A, B y C.
 

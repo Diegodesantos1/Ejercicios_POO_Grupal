@@ -10,10 +10,10 @@ class C(A):
         self.c = c
         A.__init__(self, a)
 class D(B,C):
-    def __init__(self,d, a, b, c):
+    def __init__(self, a, b, c,d):
         self.d = d
         B.__init__(self, a, b)
         C.__init__(self, a, c)
 
-d = D(1, 2, 3)
-print((d, A), (d, B), (d, C))
+d = D(1, 2, 3, 4)
+print(A.__init__(d, A), A.__init__(d, B), A.__init__(d, C))

@@ -11,3 +11,6 @@ class C(A):
         A.__init__(self, a)
 class D(B,C):
     def __init__(self,d, a, b, c):
+        self.d = d
+        B.__init__(self, a, b)
+        C.__init__(self, a, c)

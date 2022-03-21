@@ -155,6 +155,15 @@ class D(B,C):
         C.__init__(self, a, c)
 
 d = D(1, 2, 3)
+
 print(isinstance(d, A), isinstance(d, B), isinstance(d, C))
+
 print(d.a, d.b, d.c)
 ```
+
+Su UML es el siguiente: 
+
+
+<br>
+<img height="500" src="UML/UML_herencia_multiple_diamante.JPG" />
+<br>

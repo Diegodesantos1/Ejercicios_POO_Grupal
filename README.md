@@ -24,7 +24,6 @@ En este [repositorio](https://github.com/Diegodesantos1/Ejercicios_POO_Grupal) q
 3. [Ejercicio C: Herencia múltiple - Diamante](#id3)
 4. [Ejercicio D: Herencia múltiple - Caso real](#id4)
 ***
-## Ejercicios
 
 ## Ejercicio A: Herencia simple<a name="id1"></a>
 

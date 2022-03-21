@@ -7,5 +7,7 @@ class B(A):
         A.__init__(self, a)
 class C(A):
     def __init__(self, c, a):
+        self.c = c
+        A.__init__(self, a)
 class D(B,C):
     def __init__(self,d, a, b, c):

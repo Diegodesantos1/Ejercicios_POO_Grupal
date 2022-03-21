@@ -14,3 +14,6 @@ class D(B,C):
         self.d = d
         B.__init__(self, a, b)
         C.__init__(self, a, c)
+
+d = D(1, 2, 3)
+print((d, A), (d, B), (d, C))

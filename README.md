@@ -1,4 +1,4 @@
-qq<h1 align="center">Herencias POO</h1>
+<h1 align="center">Herencias POO</h1>
 
 *Hemos usado la Programación Orientada a Objetos para resolver estos ejercicios.*
 
@@ -220,6 +220,6 @@ Su UML es el siguiente:
 
 
 <br>
-<img height="500" src="UML" />
+<img height="230" src="UML/UML HerenciasG 4.jpg" />
 <br>
 

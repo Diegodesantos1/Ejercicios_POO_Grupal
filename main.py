@@ -1,6 +1,6 @@
 
 def elegir():
-    variable = int(input("Conceptos de la POO en Python. Ejercicios de Herencias. \nPor favor, introduzca qué ejercicio desea realizar (1, 2, 3 o 4): "))
+    variable = int(input("\nConceptos de la POO en Python. Ejercicios de Herencias. \nPor favor, introduzca qué ejercicio desea realizar (1, 2, 3 o 4): \n"))
 
     if variable == 1:
         from Clases import herencia_simple
@@ -11,7 +11,8 @@ def elegir():
     elif variable == 4:
         from Clases import herencia
     else:
-        print("Sólo son válidos los valores 1, 2, 3 y 4. ")
+        print("Sólo son válidos los valores 1, 2, 3 y 4.")
+        elegir()
 elegir()
 
 if __name__ == "main":

@@ -1,16 +1,14 @@
-<h1 align="center">Ejercicios de POO Grupal</h1>
+<h1 align="center">Herencias POO</h1>
 
 *Hemos usado la Programación Orientada a Objetos para resolver estos ejercicios.*
 
-***
+---
 
-<h2>Repositorio</h2>
-
-Este es el link del [Repositorio](https://github.com/Diegodesantos1/Ejercicios_POO_Grupal)
+En este [repositorio](https://github.com/Diegodesantos1/Ejercicios_POO_Grupal) quedan resueltos los ejercicios de herencias en Python. Para llevar a cabo el proyecto nos hemos documentado a través de la teoría que se encuentra en el campus virtual y de otros medios.
 
 ***
 
-<h2>Integrantes</h2>
+<h3>Integrantes</h3>
 
 1. [Juan](https://github.com/jmedina28)
 2. [Martín](https://github.com/mat0ta)
@@ -20,8 +18,14 @@ Este es el link del [Repositorio](https://github.com/Diegodesantos1/Ejercicios_P
 
 ***
 
+## Índice
+1. [Ejercicio A: Herencia simple ](#id1)
+2. [Ejercicio B: Puzzle](#id2)
+3. [Ejercicio C: Herencia múltiple - Diamante](#id3)
+4. [Ejercicio D: Herencia múltiple - Caso real](#id4)
+***
 
-<h3>Ejercicio B: Puzzle</h3>
+## Ejercicio B: Puzzle<a name="id2"></a>
 
 Enunciado: ¿qué muestra este programa en la salida estándar?
 

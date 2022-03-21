@@ -1,8 +1,10 @@
 class A:
-    pass
+    def __init__(self,a):
+        self.a = a
 class B(A):
-    pass
+    def __init__(self, b, a):
+
 class C(A):
-    pass
+    def __init__(self, c, a):
 class D(B,C):
-    pass
+    def __init__(self,d, a, b, c):

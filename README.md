@@ -231,6 +231,6 @@ Su UML es el siguiente:
 
 
 <br>
-<img height="230" src="UML/UML HerenciasG 4.jpg" />
+<img height="230" src="UML/UML HerenciasG 4.1.jpg" />
 <br>
 

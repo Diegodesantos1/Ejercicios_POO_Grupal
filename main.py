@@ -1,4 +1,5 @@
 
+
 def elegir():
     print("Si desea ver la resolución del ejercicio 2 acceda a la carpeta imágenes.  ")
     variable = int(input("Ejercicios de Herencias. Por favor, introduzca qué ejercicio desea realizar (1,3 o 4): "))
@@ -6,7 +7,7 @@ def elegir():
     if variable == 1:
         from Clases import herencia_simple
     elif variable == 3:
-        from Clases import herencia_multiple_diamantes
+        from Clases import herencia_multiple_diamante
     elif variable == 4:
         from Clases import herencia
     else:
